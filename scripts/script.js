@@ -10,11 +10,11 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
-          name: "Mekanın Sahibi",
-          artist: "Norm Ender",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/1.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/1.mp3",
-          url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
+          name: "Forever Young",
+          artist: "朴树",
+          cover: "https://p3-webcast.douyinpic.com/img/webcast/ksong_newcover_pop6.jpg~tplv-obj.image",
+          source: "https://v3-chd.douyinvod.com/79287c1727a9a1beabbb26083f633cd2/670d3d4c/video/tos/cn/tos-cn-ve-2774/o8AIRUApY0AthUxsAJLrYDJzWJghS8QImE8J2/",
+          url: "https://v3-chd.douyinvod.com/79287c1727a9a1beabbb26083f633cd2/670d3d4c/video/tos/cn/tos-cn-ve-2774/o8AIRUApY0AthUxsAJLrYDJzWJghS8QImE8J2/",
           favorited: false,
         },
         {
