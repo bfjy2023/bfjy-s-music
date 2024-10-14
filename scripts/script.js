@@ -10,10 +10,10 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
-          name: "Forever Young",
-          artist: "朴树",
-          cover: "https://p3-webcast.douyinpic.com/img/webcast/ksong_newcover_pop6.jpg~tplv-obj.image",
-          source: "https://github.com/bfjy2023/bfjyplayer/mp3/下载.m4a",
+          name: "自在的少年",
+          artist: "要不要买菜",
+          cover: "https://y.qq.com/music/photo_new/T062R800x800M000000g0vZX2zsQfU.jpg?max_age=2963246343",
+          source: "https://github.com/bfjy2023/bfjyplayer/mp3/自在的少年.mp3",
           url: "https://v3-chd.douyinvod.com/79287c1727a9a1beabbb26083f633cd2/670d3d4c/video/tos/cn/tos-cn-ve-2774/o8AIRUApY0AthUxsAJLrYDJzWJghS8QImE8J2/",
           favorited: false,
         },
@@ -123,10 +123,10 @@ new Vue({
       // 默认播放列表
       this.tracks = [
         {
-          name: "Forever Young",
-          artist: "朴树",
-          cover: "https://p3-webcast.douyinpic.com/img/webcast/ksong_newcover_pop6.jpg~tplv-obj.image",
-          source: "https://github.com/bfjy2023/bfjyplayer/mp3/下载.m4a",
+          name: "自在的少年",
+          artist: "要不要买菜",
+          cover: "https://y.qq.com/music/photo_new/T062R800x800M000000g0vZX2zsQfU.jpg?max_age=2963246343",
+          source: "https://github.com/bfjy2023/bfjyplayer/mp3/自在的少年.mp3",
           url: "https://v3-chd.douyinvod.com/79287c1727a9a1beabbb26083f633cd2/670d3d4c/video/tos/cn/tos-cn-ve-2774/o8AIRUApY0AthUxsAJLrYDJzWJghS8QImE8J2/",
           favorited: false,
         },
