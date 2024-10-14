@@ -85,28 +85,7 @@ new Vue({
       this.audio.pause();
       this.updateBar(e.pageX);
     },
-    prevTrack() {
-      this.transitionName = "scale-in";
-      this.isShowCover = false;
-      if (this.currentTrackIndex > 0) {
-        this.currentTrackIndex--;
-      } else {
-        this.currentTrackIndex = this.tracks.length - 1;
-      }
-      this.currentTrack = this.tracks[this.currentTrackIndex];
-      this.resetPlayer();
-    },
-    nextTrack() {
-      this.transitionName = "scale-out";
-      this.isShowCover = false;
-      if (this.currentTrackIndex < this.tracks.length - 1) {
-        this.currentTrackIndex++;
-      } else {
-        this.currentTrackIndex = 0;
-      }
-      this.currentTrack = this.tracks[this.currentTrackIndex];
-      this.resetPlayer();
-    },
+   
     resetPlayer() {
       this.barWidth = 0;
       this.circleLeft = 0;
@@ -144,11 +123,11 @@ new Vue({
       // 默认播放列表
       this.tracks = [
         {
-          name: "Mekanın Sahibi",
-          artist: "Norm Ender",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/1.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/1.mp3",
-          url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
+          name: "Forever Young",
+          artist: "朴树",
+          cover: "https://p3-webcast.douyinpic.com/img/webcast/ksong_newcover_pop6.jpg~tplv-obj.image",
+          source: "https://v3-chd.douyinvod.com/79287c1727a9a1beabbb26083f633cd2/670d3d4c/video/tos/cn/tos-cn-ve-2774/o8AIRUApY0AthUxsAJLrYDJzWJghS8QImE8J2/",
+          url: "https://v3-chd.douyinvod.com/79287c1727a9a1beabbb26083f633cd2/670d3d4c/video/tos/cn/tos-cn-ve-2774/o8AIRUApY0AthUxsAJLrYDJzWJghS8QImE8J2/",
           favorited: false,
         },
       ];
